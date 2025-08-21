@@ -1,0 +1,24 @@
+# Sensitive files - NEVER commit these
+crypto/
+client.properties
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+msgdump/
+
+# Temporary files
+*.tmp
+*.temp

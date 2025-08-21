@@ -1,0 +1,19 @@
+# SSL Client Configuration Template
+# Copy this file to client.properties and customize with your settings
+# NEVER commit client.properties to version control!
+
+security.protocol=SSL
+
+# SSL Keystore (Client Certificate + Private Key)
+ssl.keystore.type=PEM
+ssl.keystore.location=<path-to>/client-combined.pem
+
+# SSL Truststore (CA Certificate)
+ssl.truststore.type=PEM
+ssl.truststore.location=<path-to>/ca-cert.pem
+
+# Optional: SSL endpoint identification algorithm (disable for some cloud providers)
+# ssl.endpoint.identification.algorithm=
+
+# Optional: Private key password (if encrypted)
+# ssl.key.password=your-password-here
