@@ -1,5 +1,7 @@
 # kafka-client-utils
 
+<img src="https://github.com/user-attachments/assets/b1947ff8-f8a3-4cfd-90de-9ee762f8dbcd" alt="Kafka-esque visualisation of kafka-client-utils" height="600">
+
 A minimal Docker image with only Apache Kafka client tools (no brokers, no ZooKeeper). Handy for topic admin, consumer group inspection, config changes, perf tests, etc.
 
 **Features:**
